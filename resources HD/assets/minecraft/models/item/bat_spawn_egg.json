@@ -1,0 +1,13 @@
+{
+"parent": "item/template_spawn_egg",
+"textures": {
+	"layer0": "item/spawn_egg",
+        "layer1": "item/spawn_egg_overlay"
+},
+
+"overrides": [
+{"predicate": {"custom_model_data":1}, "model": "item/pegasus_dhd"},
+{"predicate": {"custom_model_data":2}, "model": "item/milky_way_dhd"},
+{"predicate": {"custom_model_data":10}, "model": "item/rings"}
+]
+}

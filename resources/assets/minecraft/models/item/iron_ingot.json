@@ -1,0 +1,30 @@
+{
+"parent": "item/generated",
+"textures": {
+"layer0": "item/iron_ingot"
+},
+
+"overrides": [
+{"predicate": {"custom_model_data":1}, "model": "item/stargate_1_frame"},
+{"predicate": {"custom_model_data":2}, "model": "item/stargate_1_ring"},
+{"predicate": {"custom_model_data":3}, "model": "item/stargate_1_cheveron-1"},
+{"predicate": {"custom_model_data":4}, "model": "item/stargate_2_frame"},
+{"predicate": {"custom_model_data":5}, "model": "item/stargate_2_animation"},
+{"predicate": {"custom_model_data":6}, "model": "item/stargate_2_cheveron-1"},
+{"predicate": {"custom_model_data":7}, "model": "item/stargate_3_frame"},
+{"predicate": {"custom_model_data":8}, "model": "item/stargate_3_frame-off"},
+{"predicate": {"custom_model_data":9}, "model": "item/stargate_3_animation"},
+{"predicate": {"custom_model_data":10}, "model": "item/stargate_1_cheveron-0"},
+{"predicate": {"custom_model_data":11}, "model": "item/stargate_2_cheveron-0"},
+{"predicate": {"custom_model_data":12}, "model": "item/stargate_2_light"},
+{"predicate": {"custom_model_data":13}, "model": "item/stargate_4_frame"},
+{"predicate": {"custom_model_data":14}, "model": "item/stargate_5_frame"},
+{"predicate": {"custom_model_data":500}, "model": "ancient_rings/ancient_ring"},
+{"predicate": {"custom_model_data":501}, "model": "ancient_rings/ancient_platform"},
+{"predicate": {"custom_model_data":502}, "model": "ancient_rings/transport_light_1"},
+{"predicate": {"custom_model_data":503}, "model": "ancient_rings/transport_light_2"},
+{"predicate": {"custom_model_data":504}, "model": "ancient_rings/transport_light_3"},
+{"predicate": {"custom_model_data":505}, "model": "ancient_rings/transport_light_4"},
+{"predicate": {"custom_model_data":506}, "model": "ancient_rings/transport_light_5"}
+]
+}

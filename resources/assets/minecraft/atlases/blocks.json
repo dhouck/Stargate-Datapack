@@ -1,0 +1,980 @@
+{
+    "sources": [
+        {
+            "type": "single",
+            "resource": "minecraft:blocks/e_particle"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:ancient_rings/ancient_platform"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:ancient_rings/ancient_rings_base"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:ancient_rings/ancient_rings_inner"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:ancient_rings/white1"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:ancient_rings/white2"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:ancient_rings/white3"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:ancient_rings/white4"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:ancient_rings/white5"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:blocks/e_texture"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_remote/destiny_remote"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_remote/transparent"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_remote/destiny_remote_back"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_remote/remote_side"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/1"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/10"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/11"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/12"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/13"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/14"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/15"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/16"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/17"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/18"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/19"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/2"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/20"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/21"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/22"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/23"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/24"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/25"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/26"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/27"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/28"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/29"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/3"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/30"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/31"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/32"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/33"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/34"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/35"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/36"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/4"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/5"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/6"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/7"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/8"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_glyphs/9"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_remote/dial_gate"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:universe_remote/set_address"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_1"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_1"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_10"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_10"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_11"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_11"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_12"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_12"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_13"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_13"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_14"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_14"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_15"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_15"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_16"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_16"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_17"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_17"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_18"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_18"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_19"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_19"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_2"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_2"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_20"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_20"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_21"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_21"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_22"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_22"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_23"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_23"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_24"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_24"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_25"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_25"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_26"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_26"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_27"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_27"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_28"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_28"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_29"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_29"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_3"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_3"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_30"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_30"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_31"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_31"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_32"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_32"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_33"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_33"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_34"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_34"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_35"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_35"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_36"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_36"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_4"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_4"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_5"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_5"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_6"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_6"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_7"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_7"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_8"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_8"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/n_9"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/mw_9"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_1"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_10"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_11"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_12"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_13"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_14"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_15"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_16"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_17"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_18"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_19"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_2"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_20"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_21"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_22"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_23"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_24"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_25"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_26"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_27"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_28"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_29"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_3"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_30"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_31"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_32"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_33"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_34"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_35"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_36"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_4"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_5"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_6"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_7"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_8"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:symbols/p_9"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:gui/mw_dhd"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:gui/pegasus_dhd"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:iris/pegasus_shield_1"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:iris/pegasus_shield_2"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:iris/pegasus_shield_3"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:iris/pegasus_shield_4"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/1"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/2"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/3"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/4"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/5"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/6"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/7"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/8"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/9"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/10"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/11"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/12"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/13"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/14"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/15"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/16"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/17"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/18"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/19"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/20"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/21"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/22"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/23"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/24"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/25"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/26"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/27"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/28"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/29"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/30"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/31"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/32"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/33"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/34"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/35"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:pegasus_animation/36"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:stargate_pegasus_inner_ring"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:tollan_stargate/tollan_ring"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:tollan_stargate/tollan_cheveron"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:orlin_stargate/orlin_ring"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:orlin_stargate/orlin_cheveron"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/1"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/10"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/11"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/12"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/13"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/14"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/15"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/16"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/17"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/18"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/19"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/2"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/20"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/21"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/22"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/23"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/24"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/25"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/26"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/27"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/28"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/29"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/3"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/30"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/31"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/32"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/33"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/34"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/35"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/36"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/37"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/4"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/5"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/6"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/7"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/8"
+        },
+        {
+            "type": "single",
+            "resource": "minecraft:mw_iris/9"
+        }
+    ]
+}

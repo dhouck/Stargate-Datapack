@@ -1,0 +1,15 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "dhdunlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "stargates:pegasus_dhd_recipe"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 12,
+        "function": "give:pegasus_dhd"
+    }
+}

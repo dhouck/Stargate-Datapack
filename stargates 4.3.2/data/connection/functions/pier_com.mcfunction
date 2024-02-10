@@ -1,0 +1,8 @@
+execute if entity @s[scores={connection_id=1}] run scoreboard players operation @e[tag=stargate,tag=ctrl,scores={connection_id=1},tag=!outgoing] stargate_state = @s r_stargate_state
+execute if entity @s[scores={connection_id=2}] run scoreboard players operation @e[tag=stargate,tag=ctrl,scores={connection_id=2},tag=!outgoing] stargate_state = @s r_stargate_state
+execute if entity @s[scores={connection_id=3}] run scoreboard players operation @e[tag=stargate,tag=ctrl,scores={connection_id=3},tag=!outgoing] stargate_state = @s r_stargate_state
+execute if entity @s[scores={connection_id=4}] run scoreboard players operation @e[tag=stargate,tag=ctrl,scores={connection_id=4},tag=!outgoing] stargate_state = @s r_stargate_state
+execute if entity @s[scores={connection_id=5}] run scoreboard players operation @e[tag=stargate,tag=ctrl,scores={connection_id=5},tag=!outgoing] stargate_state = @s r_stargate_state
+execute if entity @s[scores={connection_id=6}] run scoreboard players operation @e[tag=stargate,tag=ctrl,scores={connection_id=6},tag=!outgoing] stargate_state = @s r_stargate_state
+execute if entity @s[scores={connection_id=7}] run scoreboard players operation @e[tag=stargate,tag=ctrl,scores={connection_id=7},tag=!outgoing] stargate_state = @s r_stargate_state
+execute if entity @s[scores={connection_id=8}] run scoreboard players operation @e[tag=stargate,tag=ctrl,scores={connection_id=8},tag=!outgoing] stargate_state = @s r_stargate_state

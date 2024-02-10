@@ -1,0 +1,7 @@
+execute if entity @s[tag=X_P] run summon armor_stand ^ ^ ^-0.05 {Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,Marker:1b,ArmorItems:[{},{},{},{id:"iron_ingot",Count:1b,tag:{CustomModelData:12}}],HandItems:[{},{}],CustomName:"{\"text\":\"sg_light\"}",Pose:{Head:[90f,0f,0f]},Tags:["stargate","pegasus","ring_light","in_setup","r_enabled"],Rotation:[0f]}
+
+execute if entity @s[tag=X_N] run summon armor_stand ^ ^ ^-0.05 {Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,Marker:1b,ArmorItems:[{},{},{},{id:"iron_ingot",Count:1b,tag:{CustomModelData:12}}],HandItems:[{},{}],CustomName:"{\"text\":\"sg_light\"}",Pose:{Head:[90f,0f,0f]},Tags:["stargate","pegasus","ring_light","in_setup","r_enabled"],Rotation:[180f]}
+
+execute if entity @s[tag=Z_P] run summon armor_stand ^ ^ ^-0.05 {Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,Marker:1b,ArmorItems:[{},{},{},{id:"iron_ingot",Count:1b,tag:{CustomModelData:12}}],HandItems:[{},{}],CustomName:"{\"text\":\"sg_light\"}",Pose:{Head:[90f,0f,0f]},Tags:["stargate","pegasus","ring_light","in_setup","r_enabled"],Rotation:[90f]}
+
+execute if entity @s[tag=Z_N] run summon armor_stand ^ ^ ^-0.05 {Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,Marker:1b,ArmorItems:[{},{},{},{id:"iron_ingot",Count:1b,tag:{CustomModelData:12}}],HandItems:[{},{}],CustomName:"{\"text\":\"sg_light\"}",Pose:{Head:[90f,0f,0f]},Tags:["stargate","pegasus","ring_light","in_setup","r_enabled"],Rotation:[270f]}

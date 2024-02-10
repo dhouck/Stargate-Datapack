@@ -1,0 +1,66 @@
+{
+	"__comment": "Designed by CyberGamerX with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "blocks/e_particle",
+		"texture": "item/transparent",
+		"1": "pegasus_animation/1",
+		"2": "pegasus_animation/2",
+		"3": "pegasus_animation/3",
+		"4": "pegasus_animation/4",
+		"5": "pegasus_animation/5",
+		"6": "pegasus_animation/6",
+		"7": "pegasus_animation/7",
+		"8": "pegasus_animation/8",
+		"9": "pegasus_animation/9",
+		"10": "pegasus_animation/10",
+		"11": "pegasus_animation/11",
+		"12": "pegasus_animation/12",
+		"13": "pegasus_animation/13",
+		"14": "pegasus_animation/14",
+		"15": "pegasus_animation/15",
+		"16": "pegasus_animation/16",
+		"17": "pegasus_animation/17",
+		"18": "pegasus_animation/18",
+		"19": "pegasus_animation/19",
+		"20": "pegasus_animation/20",
+		"21": "pegasus_animation/21",
+		"22": "pegasus_animation/22",
+		"23": "pegasus_animation/23",
+		"24": "pegasus_animation/24",
+		"25": "pegasus_animation/25",
+		"26": "pegasus_animation/26",
+		"27": "pegasus_animation/27",
+		"28": "pegasus_animation/28",
+		"29": "pegasus_animation/29",
+		"30": "pegasus_animation/30",
+		"31": "pegasus_animation/31",
+		"32": "pegasus_animation/32",
+		"33": "pegasus_animation/33",
+		"34": "pegasus_animation/34",
+		"35": "pegasus_animation/35",
+		"36": "pegasus_animation/36",
+		"base": "item/stargate_pegasus_base",
+		"r1": "item/stargate_pegasus_outer_ring",
+		"r1_2": "item/stargate__pegasus_back",
+		"r2": "item/stargate_pegasus_inner_ring",
+		"split": "item/stargate_pegasus_split",
+		"blue_light": "item/blue_light"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneZ88",
+			"from": [ 2, 16, 8.406199 ],
+			"to": [ 14, 28, 8.4072 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#blue_light" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#blue_light" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation":  [ 90, 180, 0 ],
+			"scale":  [ 4, 4, 4 ]
+		}
+	}
+}

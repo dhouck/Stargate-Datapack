@@ -1,0 +1,25 @@
+{
+	"__comment": "Designed by CyberGamerX with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "blocks/e_particle",
+		"t": "item/transparent",
+		"light": "item/white_light"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneZ35",
+			"from": [ 7, 25, 8.75 ],
+			"to": [ 9.5, 29.5, 8.751 ],
+			"faces": {
+				"north": { "uv": [ 6, 6, 9, 15 ], "texture": "#light" },
+				"south": { "uv": [ 7, 6, 10, 15 ], "texture": "#light" }
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation":  [ 90, 180, 0 ],
+			"scale":  [ 3.2, 3.2, 4 ]
+		}
+	}
+}

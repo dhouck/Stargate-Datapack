@@ -1,0 +1,42 @@
+{
+"parent": "item/generated",
+"textures": {
+"layer0": "item/brick"
+},
+
+"overrides": [
+{"predicate": {"custom_model_data":1}, "model": "event_horizon_universe/e_1"},
+{"predicate": {"custom_model_data":2}, "model": "event_horizon_universe/e_2"},
+{"predicate": {"custom_model_data":3}, "model": "event_horizon_universe/e_3"},
+{"predicate": {"custom_model_data":4}, "model": "event_horizon_universe/e_4"},
+{"predicate": {"custom_model_data":5}, "model": "event_horizon_universe/e_5"},
+{"predicate": {"custom_model_data":6}, "model": "event_horizon_universe/e_6"},
+{"predicate": {"custom_model_data":7}, "model": "event_horizon_universe/e_7"},
+{"predicate": {"custom_model_data":8}, "model": "event_horizon_universe/s_8"},
+{"predicate": {"custom_model_data":9}, "model": "event_horizon_universe/s_9"},
+{"predicate": {"custom_model_data":10}, "model": "event_horizon_universe/s_10"},
+{"predicate": {"custom_model_data":11}, "model": "event_horizon_universe/s_11"},
+{"predicate": {"custom_model_data":12}, "model": "event_horizon_universe/s_12"},
+{"predicate": {"custom_model_data":13}, "model": "event_horizon_universe/s_13"},
+{"predicate": {"custom_model_data":14}, "model": "event_horizon_universe/s_14"},
+{"predicate": {"custom_model_data":15}, "model": "event_horizon_universe/s_15"},
+{"predicate": {"custom_model_data":16}, "model": "event_horizon_universe/s_15"},
+{"predicate": {"custom_model_data":17}, "model": "event_horizon_universe/s_15"},
+{"predicate": {"custom_model_data":18}, "model": "event_horizon_universe/s_15"},
+{"predicate": {"custom_model_data":19}, "model": "event_horizon_universe/s_16"},
+{"predicate": {"custom_model_data":20}, "model": "event_horizon_universe/s_17"},
+{"predicate": {"custom_model_data":21}, "model": "event_horizon_universe/s_18"},
+{"predicate": {"custom_model_data":22}, "model": "event_horizon_universe/s_19"},
+{"predicate": {"custom_model_data":23}, "model": "event_horizon_universe/s_20"},
+{"predicate": {"custom_model_data":24}, "model": "event_horizon_universe/s_21"},
+{"predicate": {"custom_model_data":25}, "model": "event_horizon_universe/s_22"},
+{"predicate": {"custom_model_data":26}, "model": "event_horizon_universe/stargate_event_horizon"},
+{"predicate": {"custom_model_data":27}, "model": "event_horizon_universe/e_7"},
+{"predicate": {"custom_model_data":28}, "model": "event_horizon_universe/e_6"},
+{"predicate": {"custom_model_data":29}, "model": "event_horizon_universe/e_5"},
+{"predicate": {"custom_model_data":30}, "model": "event_horizon_universe/e_4"},
+{"predicate": {"custom_model_data":31}, "model": "event_horizon_universe/e_3"},
+{"predicate": {"custom_model_data":32}, "model": "event_horizon_universe/e_2"},
+{"predicate": {"custom_model_data":33}, "model": "event_horizon_universe/e_1"}
+]
+}
