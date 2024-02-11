@@ -13,6 +13,3 @@ execute as @e[tag=stargate,tag=ctrl,tag=5x5,tag=Z] at @s if block ~ ~0 ~2 minecr
 tag @e[tag=stargate,tag=ctrl,tag=orlin,tag=damage_gate_now] add destroy
 
 execute as @e[tag=stargate,tag=ctrl,tag=destroy] at @s run function deconstructor:stargates/main_destroy
-
-execute as @e[tag=stargate,tag=ctrl,tag=destroy] at @s run forceload remove ~ ~
-execute as @e[tag=stargate,tag=destroy,tag=ctrl] at @s run kill @e[tag=stargate,distance=0..0.5]
