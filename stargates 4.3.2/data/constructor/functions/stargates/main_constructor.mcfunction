@@ -146,8 +146,8 @@ execute as @s[tag=orlin,tag=Z_P] at @s run summon minecraft:armor_stand ~ ~ ~ {I
 #Load Gate Universe Z Negative
 execute as @s[tag=orlin,tag=Z_N] at @s run summon minecraft:armor_stand ~ ~ ~ {Invisible:1b,Invulnerable:1b,PersistenceRequired:1b,NoBasePlate:1b,NoGravity:1b,Marker:1b,ArmorItems:[{},{},{},{id:"iron_ingot",Count:1b,tag:{CustomModelData:14}}],HandItems:[{},{}],CustomName:"{\"text\":\"stargate\"}",Pose:{Head:[90f,0f,0f]},Tags:["stargate","orlin","ctrl","Z_N","Z","new","shutdown","5x5"],Rotation:[270f]}
 
-execute as @s[tag=X,tag=7x7] at @s run fill ~-3 ~-1 ~ ~3 ~5 ~ minecraft:brown_stained_glass
-execute as @s[tag=Z,tag=7x7] at @s run fill ~ ~-1 ~-3 ~ ~5 ~3 minecraft:brown_stained_glass
+execute as @s[tag=X,tag=7x7] at @s run fill ~-3 ~-1 ~ ~3 ~5 ~ minecraft:barrier
+execute as @s[tag=Z,tag=7x7] at @s run fill ~ ~-1 ~-3 ~ ~5 ~3 minecraft:barrier
 execute as @s[tag=X,tag=7x7] at @s run fill ~-2 ~ ~ ~2 ~4 ~ minecraft:structure_void
 execute as @s[tag=Z,tag=7x7] at @s run fill ~ ~ ~-2 ~ ~4 ~2 minecraft:structure_void
 execute as @s[tag=Z,tag=7x7] at @s run setblock ~ ~ ~3 minecraft:structure_void
@@ -155,8 +155,8 @@ execute as @s[tag=Z,tag=7x7] at @s run setblock ~ ~ ~-3 minecraft:structure_void
 execute as @s[tag=X,tag=7x7] at @s run setblock ~3 ~ ~ minecraft:air
 execute as @s[tag=X,tag=7x7] at @s run setblock ~-3 ~ ~ minecraft:air
 
-execute as @s[tag=X,tag=5x5] at @s run fill ~-2 ~-1 ~ ~2 ~3 ~ minecraft:brown_stained_glass
-execute as @s[tag=Z,tag=5x5] at @s run fill ~ ~-1 ~-2 ~ ~3 ~2 minecraft:brown_stained_glass
+execute as @s[tag=X,tag=5x5] at @s run fill ~-2 ~-1 ~ ~2 ~3 ~ minecraft:barrier
+execute as @s[tag=Z,tag=5x5] at @s run fill ~ ~-1 ~-2 ~ ~3 ~2 minecraft:barrier
 execute as @s[tag=X,tag=5x5] at @s run fill ~-1 ~ ~ ~1 ~2 ~ minecraft:structure_void
 execute as @s[tag=Z,tag=5x5] at @s run fill ~ ~ ~-1 ~ ~2 ~1 minecraft:structure_void
 execute as @s[tag=X,tag=5x5] at @s run fill ~-2 ~-1 ~ ~2 ~-1 ~ minecraft:air
