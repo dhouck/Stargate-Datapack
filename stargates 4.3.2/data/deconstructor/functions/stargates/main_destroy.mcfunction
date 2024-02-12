@@ -62,6 +62,11 @@ execute as @s[tag=tollan,tag=Z_P] at @s run setblock ~ ~-1 ~-2 minecraft:structu
 #tollan Z Negative
 execute as @s[tag=tollan,tag=Z_N] at @s run setblock ~ ~-1 ~2 minecraft:structure_block{mode: "LOAD",powered: 0b,name: "stargates:tollan",rotation: "COUNTERCLOCKWISE_90"}
 
+# Actually place structure
 execute as @s[tag=7x7] at @s run setblock ^-3 ^-1 ^ redstone_block
-
 execute as @s[tag=5x5] at @s run setblock ^-1 ^-1 ^ redstone_block
+
+# Cleanup
+execute as @s at @s run forceload remove ~ ~
+execute as @s at @s run kill @e[tag=stargate,distance=0..0.5]
+

@@ -82,6 +82,9 @@ execute as @e[tag=find_addr,tag=dhd,tag=milky_way] at @s run item replace block 
 tag @e[tag=dhd,tag=find_addr] remove find_addr
 
 
+execute as @e[tag=dhd] at @s if entity @p[scores={player_input=101..102},distance=0..2] run scoreboard players set @s dhd_menu 0
+execute as @e[tag=dhd] at @s if entity @p[scores={player_input=102},distance=0..2] as @e[tag=stargate,tag=ctrl,distance=0..10,limit=1,sort=nearest] at @s run function deconstructor:stargates/main_destroy 
+
 execute as @e[tag=dhd,scores={dhd_menu=0..8}] at @s run function dhd_main:menu
 execute as @e[tag=dhd,scores={dhd_menu=0}] at @s if entity @p[scores={player_input=1..36},distance=0..2] run scoreboard players set @s p1 1
 execute as @e[tag=dhd,scores={dhd_menu=0}] at @s if entity @p[scores={player_input=1..36},distance=0..2] run scoreboard players set @s p2 1
