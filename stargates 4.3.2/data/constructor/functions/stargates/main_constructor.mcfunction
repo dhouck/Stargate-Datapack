@@ -150,8 +150,8 @@ execute as @s[tag=X,tag=7x7] at @s run fill ~-3 ~-1 ~ ~3 ~5 ~ minecraft:barrier
 execute as @s[tag=Z,tag=7x7] at @s run fill ~ ~-1 ~-3 ~ ~5 ~3 minecraft:barrier
 execute as @s[tag=X,tag=7x7] at @s run fill ~-2 ~ ~ ~2 ~4 ~ minecraft:structure_void
 execute as @s[tag=Z,tag=7x7] at @s run fill ~ ~ ~-2 ~ ~4 ~2 minecraft:structure_void
-execute as @s[tag=Z,tag=7x7] at @s run setblock ~ ~ ~3 minecraft:structure_void
-execute as @s[tag=Z,tag=7x7] at @s run setblock ~ ~ ~-3 minecraft:structure_void
+execute as @s[tag=Z,tag=7x7] at @s run setblock ~ ~ ~3 minecraft:air
+execute as @s[tag=Z,tag=7x7] at @s run setblock ~ ~ ~-3 minecraft:air
 execute as @s[tag=X,tag=7x7] at @s run setblock ~3 ~ ~ minecraft:air
 execute as @s[tag=X,tag=7x7] at @s run setblock ~-3 ~ ~ minecraft:air
 
