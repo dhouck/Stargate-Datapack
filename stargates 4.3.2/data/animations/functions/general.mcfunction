@@ -16,8 +16,8 @@ execute as @e[tag=stargate,tag=ctrl,scores={iris_state=38},tag=milky_way] at @s 
 execute as @e[tag=stargate,tag=ctrl,scores={iris_state=39},tag=milky_way] at @s run stopsound @a[distance=0..18] block minecraft:stargates.milky_way_iris
 
 execute as @e[tag=stargate,tag=ctrl,scores={iris_state=1},tag=milky_way] at @s run kill @e[tag=iris,distance=0..0.5,tag=milky_way,tag=stargate]
-execute as @e[tag=stargate,tag=ctrl,scores={iris_state=2},tag=milky_way] at @s run fill ^-2 ^3 ^ ^2 ^-1 ^ barrier replace minecraft:structure_void
-execute as @e[tag=stargate,tag=ctrl,scores={iris_state=1},tag=milky_way] at @s run fill ^-2 ^3 ^ ^2 ^-1 ^ minecraft:structure_void replace barrier
+execute as @e[tag=stargate,tag=ctrl,scores={iris_state=2},tag=milky_way] at @s run fill ^-2 ^3 ^ ^2 ^-1 ^ barrier replace minecraft:light
+execute as @e[tag=stargate,tag=ctrl,scores={iris_state=1},tag=milky_way] at @s run fill ^-2 ^3 ^ ^2 ^-1 ^ minecraft:light[level=0] replace barrier
 
 execute as @e[tag=stargate,tag=ctrl,scores={iris_state=2..},tag=milky_way] at @s as @e[tag=iris,distance=0..0.5,tag=milky_way,tag=stargate] run data modify entity @s ArmorItems[3].tag.CustomModelData set from entity @s Rotation[1]
 
@@ -50,8 +50,8 @@ execute as @e[tag=stargate,tag=ctrl,scores={iris_state=3},tag=pegasus] at @s run
 execute as @e[tag=stargate,tag=ctrl,scores={iris_state=4},tag=pegasus] at @s run data modify entity @e[tag=iris,tag=pegasus,tag=stargate,limit=1,distance=0..0.5] ArmorItems[3].tag.CustomModelData set value 3
 execute as @e[tag=stargate,tag=ctrl,scores={iris_state=5},tag=pegasus] at @s run data modify entity @e[tag=iris,tag=pegasus,tag=stargate,limit=1,distance=0..0.5] ArmorItems[3].tag.CustomModelData set value 4
 
-execute as @e[tag=stargate,tag=ctrl,scores={iris_state=2},tag=pegasus] at @s run fill ^-2 ^3 ^ ^2 ^-1 ^ barrier replace minecraft:structure_void
-execute as @e[tag=stargate,tag=ctrl,scores={iris_state=1},tag=pegasus] at @s run fill ^-2 ^3 ^ ^2 ^-1 ^ minecraft:structure_void replace barrier
+execute as @e[tag=stargate,tag=ctrl,scores={iris_state=2},tag=pegasus] at @s run fill ^-2 ^3 ^ ^2 ^-1 ^ barrier replace minecraft:light
+execute as @e[tag=stargate,tag=ctrl,scores={iris_state=1},tag=pegasus] at @s run fill ^-2 ^3 ^ ^2 ^-1 ^ minecraft:light[level=0] replace barrier
 execute as @e[tag=stargate,tag=ctrl,scores={iris_state=1},tag=pegasus] at @s run kill @e[tag=iris,distance=0..0.5,tag=pegasus,tag=stargate]
 
 execute as @e[tag=stargate,tag=ctrl,tag=pegasus,scores={iris_state=0..5}] at @s if block ^ ^-3 ^ minecraft:redstone_torch[lit=true] run scoreboard players add @s iris_state 1

@@ -96,11 +96,11 @@ execute as @s[scores={stargate_state=10}] at @s run scoreboard players set @s r_
 #animation control
 execute as @s[scores={stargate_state=11}] at @s run scoreboard players set @s w_animation 1
 
-execute as @s[tag=X,tag=7x7,scores={stargate_state=11}] at @s run fill ~-2 ~ ~ ~2 ~4 ~ minecraft:structure_void replace air
-execute as @s[tag=Z,tag=7x7,scores={stargate_state=11}] at @s run fill ~ ~ ~-2 ~ ~4 ~2 minecraft:structure_void replace air
+execute as @s[tag=X,tag=7x7,scores={stargate_state=11}] at @s run fill ~-2 ~ ~ ~2 ~4 ~ minecraft:light[level=0] replace air
+execute as @s[tag=Z,tag=7x7,scores={stargate_state=11}] at @s run fill ~ ~ ~-2 ~ ~4 ~2 minecraft:light[level=0] replace air
 
-execute as @s[tag=X,tag=5x5,scores={stargate_state=11}] at @s run fill ~-1 ~ ~ ~1 ~2 ~ minecraft:structure_void replace air
-execute as @s[tag=Z,tag=5x5,scores={stargate_state=11}] at @s run fill ~ ~ ~-1 ~ ~2 ~1 minecraft:structure_void replace air
+execute as @s[tag=X,tag=5x5,scores={stargate_state=11}] at @s run fill ~-1 ~ ~ ~1 ~2 ~ minecraft:light[level=0] replace air
+execute as @s[tag=Z,tag=5x5,scores={stargate_state=11}] at @s run fill ~ ~ ~-1 ~ ~2 ~1 minecraft:light[level=0] replace air
 #animation control
 execute as @s[scores={stargate_state=12,w_animation=26}] at @s run scoreboard players set @s stargate_state 13
 
@@ -121,5 +121,5 @@ execute as @s[scores={stargate_state=1040}] at @s run tag @s add shutdown
 
 execute as @s[scores={stargate_state=2000..,iris_state=1..}] at @s as @e[scores={travel_cooldown=1..},distance=0..2.9,tag=!stargate] at @s unless block ~ ~1 ~ air run clear @s
 execute as @s[scores={stargate_state=2000..,iris_state=1..}] at @s as @e[scores={travel_cooldown=1..},distance=0..2.9,tag=!stargate] at @s unless block ~ ~1 ~ air run kill @s
-execute as @s[scores={stargate_state=2000..}] at @s as @e[scores={travel_cooldown=0},distance=0..2.9,tag=!stargate] at @s if block ~ ~1 ~ structure_void run clear @s
-execute as @s[scores={stargate_state=2000..}] at @s as @e[scores={travel_cooldown=0},distance=0..2.9,tag=!stargate] at @s if block ~ ~1 ~ structure_void run kill @s
+execute as @s[scores={stargate_state=2000..}] at @s as @e[scores={travel_cooldown=0},distance=0..2.9,tag=!stargate] at @s if block ~ ~1 ~ minecraft:light run clear @s
+execute as @s[scores={stargate_state=2000..}] at @s as @e[scores={travel_cooldown=0},distance=0..2.9,tag=!stargate] at @s if block ~ ~1 ~ minecraft:light run kill @s
