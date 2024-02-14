@@ -157,8 +157,8 @@ execute as @s[tag=X,tag=7x7] at @s run setblock ~-3 ~ ~ minecraft:air
 
 execute as @s[tag=X,tag=5x5] at @s run fill ~-2 ~-1 ~ ~2 ~3 ~ minecraft:barrier
 execute as @s[tag=Z,tag=5x5] at @s run fill ~ ~-1 ~-2 ~ ~3 ~2 minecraft:barrier
-execute as @s[tag=X,tag=5x5] at @s run fill ~-1 ~ ~ ~1 ~2 ~ minecraft:light[level=0]
-execute as @s[tag=Z,tag=5x5] at @s run fill ~ ~ ~-1 ~ ~2 ~1 minecraft:light[level=0]
 execute as @s[tag=X,tag=5x5] at @s run fill ~-2 ~-1 ~ ~2 ~-1 ~ minecraft:air
 execute as @s[tag=Z,tag=5x5] at @s run fill ~ ~-1 ~-2 ~ ~-1 ~2 minecraft:air
+execute as @s[tag=X,tag=5x5] at @s run fill ~-1 ~-1 ~ ~1 ~2 ~ minecraft:light[level=0]
+execute as @s[tag=Z,tag=5x5] at @s run fill ~ ~-1 ~-1 ~ ~2 ~1 minecraft:light[level=0]
 kill @s
