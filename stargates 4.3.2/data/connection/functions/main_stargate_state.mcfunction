@@ -96,12 +96,6 @@ execute as @s[scores={stargate_state=10}] at @s run scoreboard players set @s r_
 #animation control
 execute as @s[scores={stargate_state=11}] at @s run scoreboard players set @s w_animation 1
 
-execute as @s[tag=X,tag=7x7,scores={stargate_state=11}] at @s run fill ~-2 ~ ~ ~2 ~4 ~ minecraft:light[level=0] replace air
-execute as @s[tag=Z,tag=7x7,scores={stargate_state=11}] at @s run fill ~ ~ ~-2 ~ ~4 ~2 minecraft:light[level=0] replace air
-
-execute as @s[tag=X,tag=5x5,scores={stargate_state=11}] at @s run fill ~-1 ~ ~ ~1 ~2 ~ minecraft:light[level=0] replace air
-execute as @s[tag=Z,tag=5x5,scores={stargate_state=11}] at @s run fill ~ ~ ~-1 ~ ~2 ~1 minecraft:light[level=0] replace air
-#animation control
 execute as @s[scores={stargate_state=12,w_animation=26}] at @s run scoreboard players set @s stargate_state 13
 
 
