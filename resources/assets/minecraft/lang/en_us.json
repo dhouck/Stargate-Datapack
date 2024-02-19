@@ -1,0 +1,17 @@
+{
+    "subtitles.stargate.traveler.inbound": "Gate traveler arrived",
+    "subtitles.stargate.chevron.lock": "Chevron locked",
+    "subtitles.stargate.gate.dial": "Gate dialing",
+    "subtitles.stargate.gate.shutdown": "Gate deactivated",
+    "subtitles.stargate.gate.kawoosh": "Gate kawooshed",
+
+    "subtitles.stargate.iris.open": "Iris opening",
+    "subtitles.stargate.iris.close": "Iris closing",
+
+    "subtitles.stargate.shield.activate": "Gate shield activated",
+    "subtitles.stargate.shield.deactivate": "Gate shield deactivated",
+
+    "subtitles.stargate.gate.startup": "Gate powered on",
+
+    "subtitle.stargate.rings.activate": "Ring platform activating"
+}
