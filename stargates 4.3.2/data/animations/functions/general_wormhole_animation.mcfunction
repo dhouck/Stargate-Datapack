@@ -4,22 +4,22 @@ execute as @s[scores={w_animation=1}] run tag @s add e_off
 execute as @s[tag=7x7,scores={w_animation=1}] at @s run fill ^-2 ^3 ^ ^2 ^-1 ^ minecraft:light[level=15] replace #minecraft:replaceable
 execute as @s[tag=5x5,scores={w_animation=1}] at @s run fill ^-1 ^2 ^ ^1 ^-1 ^ minecraft:light[level=15] replace #minecraft:replaceable
 
-execute as @s[scores={w_animation=1},tag=7x7,tag=X_P] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"gold_ingot",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[0f, 1f]}
+execute as @s[scores={w_animation=1},tag=7x7,tag=X_P] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"gold_ingot",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[0f, 1f],Marker:true}
 
-execute as @s[scores={w_animation=1},tag=7x7,tag=X_N] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"gold_ingot",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[180f, 1f]}
+execute as @s[scores={w_animation=1},tag=7x7,tag=X_N] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"gold_ingot",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[180f, 1f],Marker:true}
 
-execute as @s[scores={w_animation=1},tag=7x7,tag=Z_P] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"gold_ingot",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[90f, 1f]}
+execute as @s[scores={w_animation=1},tag=7x7,tag=Z_P] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"gold_ingot",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[90f, 1f],Marker:true}
 
-execute as @s[scores={w_animation=1},tag=7x7,tag=Z_N] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"gold_ingot",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[270f, 1f]}
+execute as @s[scores={w_animation=1},tag=7x7,tag=Z_N] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"gold_ingot",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[270f, 1f],Marker:true}
 
 
-execute as @s[scores={w_animation=1},tag=5x5,tag=X_P] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"brick",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[0f, 1f]}
+execute as @s[scores={w_animation=1},tag=5x5,tag=X_P] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"brick",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[0f, 1f],Marker:true}
 
-execute as @s[scores={w_animation=1},tag=5x5,tag=X_N] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"brick",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[180f, 1f]}
+execute as @s[scores={w_animation=1},tag=5x5,tag=X_N] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"brick",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[180f, 1f],Marker:true}
 
-execute as @s[scores={w_animation=1},tag=5x5,tag=Z_P] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"brick",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[90f, 1f]}
+execute as @s[scores={w_animation=1},tag=5x5,tag=Z_P] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"brick",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[90f, 1f],Marker:true}
 
-execute as @s[scores={w_animation=1},tag=5x5,tag=Z_N] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"brick",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[270f, 1f]}
+execute as @s[scores={w_animation=1},tag=5x5,tag=Z_N] at @s run summon minecraft:armor_stand ~ ~ ~ {Tags:["stargate","event_horizon"],ArmorItems:[{},{},{},{id:"brick",Count:1b,tag:{CustomModelData:1}}],HandItems:[{},{}],NoGravity:1,Pose:{Head:[90f,0f,0f]},Invisible:1,NoBasePlate:1,Rotation:[270f, 1f],Marker:true}
 
 # Startup animation
 execute as @e[tag=event_horizon,tag=stargate] at @s run data modify entity @s ArmorItems[3].tag.CustomModelData set from entity @s Rotation[1]
