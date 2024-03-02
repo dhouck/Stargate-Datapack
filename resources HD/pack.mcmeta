@@ -1,6 +1,10 @@
 {
     "pack": {
-        "pack_format": 12,
-        "description": "Stargates 4.3 - 1.19"
+        "pack_format": 15,
+        "description": "HD Resources for Stargates 5.0 fork",
+        "supported_formats": {
+            "min_inclusive": 12,
+            "max_inclusive": 28
+        }
     }
 }

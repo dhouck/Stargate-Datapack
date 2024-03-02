@@ -1,6 +1,10 @@
  {
        "pack": {
-           "pack_format": 7,
-           "description": "Stargates In Vanilla Minecraft (Version 4.3.2 - 1.19.2)"
+            "pack_format": 15,
+            "description": "Stargates In Vanilla Minecraft (Version 4.3.2 - 1.19.2)",
+            "supported_formats": {
+                "min_inclusive": 15,
+                "max_inclusive": 32
+            }
        }
    }
