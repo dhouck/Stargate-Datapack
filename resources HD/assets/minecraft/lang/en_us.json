@@ -1,4 +1,5 @@
 {
+    // Subtitles
     "subtitles.stargate.traveler.inbound": "Gate traveler arrived",
     "subtitles.stargate.chevron.lock": "Chevron locked",
     "subtitles.stargate.gate.dial": "Gate dialing",
@@ -13,5 +14,19 @@
 
     "subtitles.stargate.gate.startup": "Gate powered on",
 
-    "subtitle.stargate.rings.activate": "Ring platform activating"
+    "subtitle.stargate.rings.activate": "Ring platform activating",
+
+    // Addresses
+    "stargates.address.1": "%s",
+    "stargates.address.2": "%s-%s",
+    "stargates.address.3": "%s-%s-%s",
+    "stargates.address.4": "%s-%s-%s-%s",
+    "stargates.address.5": "%s-%s-%s-%s-%s",
+    "stargates.address.6": "%s-%s-%s-%s-%s-%s",
+    "stargates.address.7": "%s-%s-%s-%s-%s-%s-%s",
+    "stargates.address.8": "%s-%s-%s-%s-%s-%s-%s-%s",
+    "stargates.address.9": "%s-%s-%s-%s-%s-%s-%s-%s-%s",
+
+    // Glyphs
+    "stargates.glyph.mw.origin": "\u1430"
 }
