@@ -23,67 +23,12 @@ kill @e[type=bat,name="Pegasus DHD"]
 scoreboard players set @a[scores={spawn_dhd=1..}] spawn_dhd 0
 
 execute as @e[tag=dhd,tag=new] at @s run scoreboard players set @s dhd_menu 0
-execute as @e[tag=dhd,tag=new] at @s run setblock ~ ~ ~ minecraft:barrel
+execute as @e[tag=dhd,tag=new] at @s run setblock ~ ~ ~ minecraft:jukebox[has_record=true]{RecordStartTick: -45600L, IsPlaying: false}
 execute as @e[tag=dhd,tag=new] at @s run tag @s remove new
 
 # Killing
-execute as @e[tag=dhd] at @s unless block ~ ~ ~ minecraft:barrel run kill @e[type=minecraft:item,nbt={Item: {id: "minecraft:barrel"}},distance=0..1,limit=1]
-execute as @e[tag=dhd] at @s unless block ~ ~ ~ minecraft:barrel run kill @e[type=minecraft:item,nbt={Item: {id: "minecraft:dirt"}},distance=0..1,limit=9]
-execute as @e[tag=dhd,tag=pegasus] at @s unless block ~ ~ ~ minecraft:barrel run summon item ~ ~ ~ {Item: {id:"minecraft:bat_spawn_egg",Count:1b, tag: {CustomModelData:1, display: {Name: '{"text":"Pegasus DHD", "italic": "false"}'}}}}
-execute as @e[tag=dhd,tag=milky_way] at @s unless block ~ ~ ~ minecraft:barrel run summon item ~ ~ ~ {Item: {id:"minecraft:bat_spawn_egg",Count:1b, tag: {CustomModelData:2, display: {Name: '{"text":"Milky Way DHD", "italic": "false"}'}}}}
-execute as @e[tag=dhd] at @s unless block ~ ~ ~ minecraft:barrel run kill @s
-
-# Finding address
-execute as @a[scores={open_dhd=1..}] at @s run tag @e[tag=dhd,distance=0..7] add find_addr
-scoreboard players set @e[scores={open_dhd=1..}] open_dhd 0
-
-execute as @e[tag=find_addr,tag=dhd] at @s run data merge block ~ ~ ~ {Items:[]}
-execute as @e[tag=find_addr,tag=dhd] at @s run item replace block ~ ~ ~ container.16 with dirt
-execute as @e[tag=find_addr,tag=dhd] at @s run scoreboard players operation @s s1 = @e[tag=stargate,tag=ctrl,distance=0..15,limit=1,sort=nearest] addr8
-execute as @e[tag=find_addr,tag=dhd,tag=milky_way] at @s run function dhd_main:m_symbol
-execute as @e[tag=find_addr,tag=dhd,tag=pegasus] at @s run function dhd_main:p_symbol
-execute as @e[tag=find_addr,tag=dhd] at @s run data modify block ~ ~ ~ Items[0].tag.display.Name set value '{"text":"Cheveron 8"}'
-
-execute as @e[tag=find_addr,tag=dhd] at @s run item replace block ~ ~ ~ container.15 with dirt
-execute as @e[tag=find_addr,tag=dhd] at @s run scoreboard players operation @s s1 = @e[tag=stargate,tag=ctrl,distance=0..15,limit=1,sort=nearest] addr6
-execute as @e[tag=find_addr,tag=dhd,tag=milky_way] at @s run function dhd_main:m_symbol
-execute as @e[tag=find_addr,tag=dhd,tag=pegasus] at @s run function dhd_main:p_symbol
-execute as @e[tag=find_addr,tag=dhd] at @s run data modify block ~ ~ ~ Items[0].tag.display.Name set value '{"text":"Cheveron 6"}'
-
-execute as @e[tag=find_addr,tag=dhd] at @s run item replace block ~ ~ ~ container.14 with dirt
-execute as @e[tag=find_addr,tag=dhd] at @s run scoreboard players operation @s s1 = @e[tag=stargate,tag=ctrl,distance=0..15,limit=1,sort=nearest] addr5
-execute as @e[tag=find_addr,tag=dhd,tag=milky_way] at @s run function dhd_main:m_symbol
-execute as @e[tag=find_addr,tag=dhd,tag=pegasus] at @s run function dhd_main:p_symbol
-execute as @e[tag=find_addr,tag=dhd] at @s run data modify block ~ ~ ~ Items[0].tag.display.Name set value '{"text":"Cheveron 5"}'
-
-execute as @e[tag=find_addr,tag=dhd] at @s run item replace block ~ ~ ~ container.13 with dirt
-execute as @e[tag=find_addr,tag=dhd] at @s run scoreboard players operation @s s1 = @e[tag=stargate,tag=ctrl,distance=0..15,limit=1,sort=nearest] addr4
-execute as @e[tag=find_addr,tag=dhd,tag=milky_way] at @s run function dhd_main:m_symbol
-execute as @e[tag=find_addr,tag=dhd,tag=pegasus] at @s run function dhd_main:p_symbol
-execute as @e[tag=find_addr,tag=dhd] at @s run data modify block ~ ~ ~ Items[0].tag.display.Name set value '{"text":"Cheveron 4"}'
-
-execute as @e[tag=find_addr,tag=dhd] at @s run item replace block ~ ~ ~ container.12 with dirt
-execute as @e[tag=find_addr,tag=dhd] at @s run scoreboard players operation @s s1 = @e[tag=stargate,tag=ctrl,distance=0..15,limit=1,sort=nearest] addr3
-execute as @e[tag=find_addr,tag=dhd,tag=milky_way] at @s run function dhd_main:m_symbol
-execute as @e[tag=find_addr,tag=dhd,tag=pegasus] at @s run function dhd_main:p_symbol
-execute as @e[tag=find_addr,tag=dhd] at @s run data modify block ~ ~ ~ Items[0].tag.display.Name set value '{"text":"Cheveron 3"}'
-
-execute as @e[tag=find_addr,tag=dhd] at @s run item replace block ~ ~ ~ container.11 with dirt
-execute as @e[tag=find_addr,tag=dhd] at @s run scoreboard players operation @s s1 = @e[tag=stargate,tag=ctrl,distance=0..15,limit=1,sort=nearest] addr2
-execute as @e[tag=find_addr,tag=dhd,tag=milky_way] at @s run function dhd_main:m_symbol
-execute as @e[tag=find_addr,tag=dhd,tag=pegasus] at @s run function dhd_main:p_symbol
-execute as @e[tag=find_addr,tag=dhd] at @s run data modify block ~ ~ ~ Items[0].tag.display.Name set value '{"text":"Cheveron 2"}'
-
-execute as @e[tag=find_addr,tag=dhd] at @s run item replace block ~ ~ ~ container.10 with dirt
-execute as @e[tag=find_addr,tag=dhd] at @s run scoreboard players operation @s s1 = @e[tag=stargate,tag=ctrl,distance=0..15,limit=1,sort=nearest] addr1
-execute as @e[tag=find_addr,tag=dhd,tag=milky_way] at @s run function dhd_main:m_symbol
-execute as @e[tag=find_addr,tag=dhd,tag=pegasus] at @s run function dhd_main:p_symbol
-execute as @e[tag=find_addr,tag=dhd] at @s run data modify block ~ ~ ~ Items[0].tag.display.Name set value '{"text":"Cheveron 1"}'
-
-execute as @e[tag=find_addr,tag=dhd,tag=pegasus] at @s run item replace block ~ ~ ~ container.0 with dirt{CustomModelData:1001, display: {Name: '{"text":""}'}}
-execute as @e[tag=find_addr,tag=dhd,tag=milky_way] at @s run item replace block ~ ~ ~ container.0 with dirt{CustomModelData:1000, display: {Name: '{"text":""}'}}
-
-tag @e[tag=dhd,tag=find_addr] remove find_addr
+execute as @e[tag=dhd] at @s unless block ~ ~ ~ minecraft:jukebox[has_record=true]{RecordStartTick: -45600L, IsPlaying: false} run function dhd_main:kill
+execute as @e[tag=dhd] at @s if data block ~ ~ ~ RecordItem run function dhd_main:kill
 
 # Dialing
 execute as @a[scores={player_input=1..}] at @s run function dhd_main:player_io
