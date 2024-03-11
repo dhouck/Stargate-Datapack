@@ -1,0 +1,59 @@
+{
+    "criteria": {
+        "used_note_block_with_bare_hand": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:jukebox"
+                                ],
+                                "state": {
+                                    "has_record": "true"
+                                },
+                                "nbt": "{RecordStartTick: -45600L, IsPlaying: false}"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "location_check",
+                            "predicate": {
+                                "block": {
+                                    "nbt": "{RecordItem: {}}"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "condition": "any_of",
+                        "terms": [
+                            {
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "flags": {
+                                        "is_sneaking": false
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "match_tool",
+                                "predicate": {
+                                    "count": 0
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "dhd_main:dhd_used"
+    }
+}

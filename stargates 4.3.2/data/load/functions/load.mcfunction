@@ -67,3 +67,8 @@ scoreboard objectives add player_input trigger
 scoreboard objectives add iris_state dummy
 scoreboard objectives add travel_cooldown dummy
 scoreboard objectives add version dummy
+scoreboard objectives add stargate.dhd_id dummy "DHD ID"
+scoreboard objectives add stargate.dialing_dhd dummy "Currently Dialing DHD"
+
+# Next DHD ID
+execute unless score .global stargate.dhd_id matches -2147483648..2147483647 run scoreboard players set .global stargate.dhd_id 0
