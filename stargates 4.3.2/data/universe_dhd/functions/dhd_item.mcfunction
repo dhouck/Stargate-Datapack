@@ -1,36 +1,36 @@
-replaceitem entity @a[scores={u_selected_glyph=0}] weapon.offhand minecraft:snowball{CustomModelData:1,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=1}] weapon.offhand minecraft:snowball{CustomModelData:2,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=2}] weapon.offhand minecraft:snowball{CustomModelData:3,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=3}] weapon.offhand minecraft:snowball{CustomModelData:4,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=4}] weapon.offhand minecraft:snowball{CustomModelData:5,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=5}] weapon.offhand minecraft:snowball{CustomModelData:6,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=6}] weapon.offhand minecraft:snowball{CustomModelData:7,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=7}] weapon.offhand minecraft:snowball{CustomModelData:8,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=8}] weapon.offhand minecraft:snowball{CustomModelData:9,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=9}] weapon.offhand minecraft:snowball{CustomModelData:10,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=10}] weapon.offhand minecraft:snowball{CustomModelData:11,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=11}] weapon.offhand minecraft:snowball{CustomModelData:12,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=12}] weapon.offhand minecraft:snowball{CustomModelData:13,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=13}] weapon.offhand minecraft:snowball{CustomModelData:14,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=14}] weapon.offhand minecraft:snowball{CustomModelData:15,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=15}] weapon.offhand minecraft:snowball{CustomModelData:16,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=16}] weapon.offhand minecraft:snowball{CustomModelData:17,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=17}] weapon.offhand minecraft:snowball{CustomModelData:18,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=18}] weapon.offhand minecraft:snowball{CustomModelData:19,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=19}] weapon.offhand minecraft:snowball{CustomModelData:20,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=20}] weapon.offhand minecraft:snowball{CustomModelData:21,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=21}] weapon.offhand minecraft:snowball{CustomModelData:22,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=22}] weapon.offhand minecraft:snowball{CustomModelData:23,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=23}] weapon.offhand minecraft:snowball{CustomModelData:24,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=24}] weapon.offhand minecraft:snowball{CustomModelData:25,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=25}] weapon.offhand minecraft:snowball{CustomModelData:26,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=26}] weapon.offhand minecraft:snowball{CustomModelData:27,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=27}] weapon.offhand minecraft:snowball{CustomModelData:28,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=28}] weapon.offhand minecraft:snowball{CustomModelData:29,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=29}] weapon.offhand minecraft:snowball{CustomModelData:30,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=30}] weapon.offhand minecraft:snowball{CustomModelData:31,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=31}] weapon.offhand minecraft:snowball{CustomModelData:32,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=32}] weapon.offhand minecraft:snowball{CustomModelData:33,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=33}] weapon.offhand minecraft:snowball{CustomModelData:34,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=34}] weapon.offhand minecraft:snowball{CustomModelData:35,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
-replaceitem entity @a[scores={u_selected_glyph=35}] weapon.offhand minecraft:snowball{CustomModelData:36,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=0}] weapon.offhand minecraft:snowball{CustomModelData:1,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=1}] weapon.offhand minecraft:snowball{CustomModelData:2,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=2}] weapon.offhand minecraft:snowball{CustomModelData:3,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=3}] weapon.offhand minecraft:snowball{CustomModelData:4,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=4}] weapon.offhand minecraft:snowball{CustomModelData:5,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=5}] weapon.offhand minecraft:snowball{CustomModelData:6,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=6}] weapon.offhand minecraft:snowball{CustomModelData:7,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=7}] weapon.offhand minecraft:snowball{CustomModelData:8,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=8}] weapon.offhand minecraft:snowball{CustomModelData:9,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=9}] weapon.offhand minecraft:snowball{CustomModelData:10,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=10}] weapon.offhand minecraft:snowball{CustomModelData:11,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=11}] weapon.offhand minecraft:snowball{CustomModelData:12,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=12}] weapon.offhand minecraft:snowball{CustomModelData:13,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=13}] weapon.offhand minecraft:snowball{CustomModelData:14,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=14}] weapon.offhand minecraft:snowball{CustomModelData:15,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=15}] weapon.offhand minecraft:snowball{CustomModelData:16,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=16}] weapon.offhand minecraft:snowball{CustomModelData:17,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=17}] weapon.offhand minecraft:snowball{CustomModelData:18,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=18}] weapon.offhand minecraft:snowball{CustomModelData:19,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=19}] weapon.offhand minecraft:snowball{CustomModelData:20,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=20}] weapon.offhand minecraft:snowball{CustomModelData:21,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=21}] weapon.offhand minecraft:snowball{CustomModelData:22,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=22}] weapon.offhand minecraft:snowball{CustomModelData:23,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=23}] weapon.offhand minecraft:snowball{CustomModelData:24,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=24}] weapon.offhand minecraft:snowball{CustomModelData:25,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=25}] weapon.offhand minecraft:snowball{CustomModelData:26,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=26}] weapon.offhand minecraft:snowball{CustomModelData:27,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=27}] weapon.offhand minecraft:snowball{CustomModelData:28,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=28}] weapon.offhand minecraft:snowball{CustomModelData:29,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=29}] weapon.offhand minecraft:snowball{CustomModelData:30,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=30}] weapon.offhand minecraft:snowball{CustomModelData:31,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=31}] weapon.offhand minecraft:snowball{CustomModelData:32,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=32}] weapon.offhand minecraft:snowball{CustomModelData:33,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=33}] weapon.offhand minecraft:snowball{CustomModelData:34,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=34}] weapon.offhand minecraft:snowball{CustomModelData:35,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
+# replaceitem entity @a[scores={u_selected_glyph=35}] weapon.offhand minecraft:snowball{CustomModelData:36,display:{Name:"[{\"text\":\"Remote DHD\"}]",Lore:["{\"text\":\"Remote_DHD\"}"]}}
