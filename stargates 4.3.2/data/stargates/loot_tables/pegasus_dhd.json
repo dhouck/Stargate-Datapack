@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bat_spawn_egg",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: 1, display: {Name: '{\"text\":\"Pegasus DHD\", \"italic\": false}'}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

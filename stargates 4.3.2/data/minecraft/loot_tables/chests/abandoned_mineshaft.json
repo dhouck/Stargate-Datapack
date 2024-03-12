@@ -38,37 +38,19 @@
                     "weight": 5
                 },
                 {
-                    "type": "item",
+                    "type": "loot_table",
                     "weight": 10,
-                    "name": "minecraft:bat_spawn_egg",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{CustomModelData:1, display: {Name: '{\"text\":\"Pegasus DHD\",\"italic\":\"false\"}'}}"
-                        }
-                    ]
+                    "name": "stargates:pegasus_dhd"
                 },
                 {
-                    "type": "item",
+                    "type": "loot_table",
                     "weight": 10,
-                    "name": "minecraft:bat_spawn_egg",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{CustomModelData:2, display: {Name: '{\"text\":\"Milky Way DHD\",\"italic\":\"false\"}'}}"
-                        }
-                    ]
+                    "name": "stargates:milky_way_dhd"
                 },
                 {
-                    "type": "item",
+                    "type": "loot_table",
                     "weight": 8,
-                    "name": "minecraft:bat_spawn_egg",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{CustomModelData:10, display: {Name: '{\"text\":\"Transport Rings\",\"italic\":\"false\"}'}}"
-                        }
-                    ]
+                    "name": "rings:transport_rings"
                 }
             ]
         },

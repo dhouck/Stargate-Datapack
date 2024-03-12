@@ -109,26 +109,14 @@
                     ]
                 },
                 {
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:bat_spawn_egg",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{CustomModelData:2, display: {Name: '{\"text\":\"Milky Way DHD\",\"italic\":\"false\"}'}}"
-                        }
-                    ]
+                    "type": "loot_table",
+                    "weight": 15,
+                    "name": "stargates:pegasus_dhd"
                 },
                 {
-                    "type": "item",
-                    "weight": 10,
-                    "name": "minecraft:bat_spawn_egg",
-                    "functions": [
-                        {
-                            "function": "set_nbt",
-                            "tag": "{CustomModelData:1, display: {Name: '{\"text\":\"Pegasus DHD\",\"italic\":\"false\"}'}}"
-                        }
-                    ]
+                    "type": "loot_table",
+                    "weight": 5,
+                    "name": "stargates:milky_way_dhd"
                 }
             ]
         }
