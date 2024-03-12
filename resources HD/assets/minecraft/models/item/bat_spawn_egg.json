@@ -6,8 +6,6 @@
 },
 
 "overrides": [
-{"predicate": {"custom_model_data":1}, "model": "item/pegasus_dhd"},
-{"predicate": {"custom_model_data":2}, "model": "item/milky_way_dhd"},
 {"predicate": {"custom_model_data":10}, "model": "item/rings"}
 ]
 }

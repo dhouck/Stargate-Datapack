@@ -60,10 +60,13 @@ scoreboard objectives add r_stargate_state dummy
 scoreboard objectives add w_animation dummy
 scoreboard objectives add p_lightup_pos dummy
 scoreboard objectives add m_lightup_i dummy
-scoreboard objectives add spawn_dhd minecraft.used:minecraft.bat_spawn_egg
-scoreboard objectives add open_dhd minecraft.custom:minecraft.open_barrel
 scoreboard objectives add dhd_menu dummy
 scoreboard objectives add player_input trigger
 scoreboard objectives add iris_state dummy
 scoreboard objectives add travel_cooldown dummy
 scoreboard objectives add version dummy
+scoreboard objectives add stargate.dhd_id dummy "DHD ID"
+scoreboard objectives add stargate.dialing_dhd dummy "Currently Dialing DHD"
+
+# Next DHD ID
+execute unless score .global stargate.dhd_id matches -2147483648..2147483647 run scoreboard players set .global stargate.dhd_id 0
