@@ -5,11 +5,11 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:bat_spawn_egg",
+					"name": "minecraft:lectern",
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 2, display: {Name: '{\"text\":\"Milky Way DHD\", \"italic\": false}'}}"
+							"tag": "{CustomModelData: 2, display: {Name: '{\"text\":\"Milky Way DHD\", \"italic\": false}', Lore:['{\"text\":\"Place near a stargate to control the gate\"}']}, BlockEntityTag: {Book: {id: \"minecraft:redstone\", Count: 1b, tag: {x_custom_block: {type: \"stargates:milky_way_dhd\"}}}}}"
 						}
 					]
 				}

@@ -60,8 +60,6 @@ scoreboard objectives add r_stargate_state dummy
 scoreboard objectives add w_animation dummy
 scoreboard objectives add p_lightup_pos dummy
 scoreboard objectives add m_lightup_i dummy
-scoreboard objectives add spawn_dhd minecraft.used:minecraft.bat_spawn_egg
-scoreboard objectives add open_dhd minecraft.custom:minecraft.open_barrel
 scoreboard objectives add dhd_menu dummy
 scoreboard objectives add player_input trigger
 scoreboard objectives add iris_state dummy
