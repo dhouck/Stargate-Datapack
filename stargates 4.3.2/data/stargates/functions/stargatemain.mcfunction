@@ -2,8 +2,8 @@ function updates:update
 
 function animations:milky_way
 function animations:pegasus
-function stargates:milky_way_cheverons
-function stargates:pegasus_cheverons
+function stargates:milky_way_chevrons
+function stargates:pegasus_chevrons
 function animations:universe
 #function universe_dhd:dhd_main
 function constructor:stargates/main

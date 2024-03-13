@@ -62,13 +62,13 @@ execute as @s[scores={stargate_state=4}] at @s as @e[tag=stargate,tag=ctrl,score
 execute as @s[scores={stargate_state=4}] at @s as @e[tag=stargate,tag=ctrl,scores={stargate_state=0..3}] run scoreboard players operation @s dial8 = @s addr8
 
 tag @s[scores={stargate_state=5}] add outgoing
-execute as @s[scores={stargate_state=5}] at @s run function connection:cheveron_1
-execute as @s[scores={stargate_state=5}] at @s run function connection:cheveron_2
-execute as @s[scores={stargate_state=5}] at @s run function connection:cheveron_3
-execute as @s[scores={stargate_state=5}] at @s run function connection:cheveron_4
-execute as @s[scores={stargate_state=5}] at @s run function connection:cheveron_5
-execute as @s[scores={stargate_state=5}] at @s run function connection:cheveron_6
-execute as @s[scores={stargate_state=5}] at @s run function connection:cheveron_8
+execute as @s[scores={stargate_state=5}] at @s run function connection:chevron_1
+execute as @s[scores={stargate_state=5}] at @s run function connection:chevron_2
+execute as @s[scores={stargate_state=5}] at @s run function connection:chevron_3
+execute as @s[scores={stargate_state=5}] at @s run function connection:chevron_4
+execute as @s[scores={stargate_state=5}] at @s run function connection:chevron_5
+execute as @s[scores={stargate_state=5}] at @s run function connection:chevron_6
+execute as @s[scores={stargate_state=5}] at @s run function connection:chevron_8
 
 execute as @s[scores={stargate_state=6}] at @s as @e[tag=stargate,tag=ctrl,scores={dial1=0,dial2=0,dial3=0,dial4=0,dial5=0,dial6=0,dial8=0,stargate_state=0..3},tag=!outgoing,limit=1,sort=nearest] run tag @s add connection
 execute as @s[scores={stargate_state=6}] at @s as @e[tag=stargate,tag=ctrl,tag=connection,tag=!outgoing,limit=1,sort=nearest] run tag @s add shutdown

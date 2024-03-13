@@ -1,2 +1,0 @@
-execute as @e[type=minecraft:armor_stand,tag=stargate,tag=cheveron,tag=milky_way,tag=off] at @s run data merge entity @s {ArmorItems:[{},{},{},{id:"iron_ingot",Count:1b,tag:{CustomModelData:10}}]}
-execute as @e[type=minecraft:armor_stand,tag=stargate,tag=cheveron,tag=milky_way,tag=!off] at @s run data merge entity @s {ArmorItems:[{},{},{},{id:"iron_ingot",Count:1b,tag:{CustomModelData:3}}]}

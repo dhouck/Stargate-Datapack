@@ -5,9 +5,9 @@
 		],
 		"subtitle": "subtitles.stargate.traveler.inbound"
 	},
-        "stargates.milky_way_cheveron_lock": {
+        "stargates.milky_way_chevron_lock": {
 		"sounds": [
-			"stargates/milky_way_cheveron_lock"
+			"stargates/milky_way_chevron_lock"
 		],
 		"subtitle": "subtitles.stargate.chevron.lock"
 	},"stargates.milky_way_ring_spin": {
@@ -22,9 +22,9 @@
 		],
 		"subtitle": "subtitles.stargate.gate.shutdown"
 	},
-        "stargates.milky_way_inbound_cheveron": {
+        "stargates.milky_way_inbound_chevron": {
 		"sounds": [
-			"stargates/milky_way_inbound_cheveron"
+			"stargates/milky_way_inbound_chevron"
 		],
 		"subtitle": "subtitles.stargate.chevron.lock"
 	},

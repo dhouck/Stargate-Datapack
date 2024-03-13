@@ -818,7 +818,7 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:tollan_stargate/tollan_cheveron"
+            "resource": "minecraft:tollan_stargate/tollan_chevron"
         },
         {
             "type": "single",
@@ -826,7 +826,7 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:orlin_stargate/orlin_cheveron"
+            "resource": "minecraft:orlin_stargate/orlin_chevron"
         },
         {
             "type": "single",

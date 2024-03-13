@@ -670,7 +670,7 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:sg1_detailed/cheveron_light_off"
+            "resource": "minecraft:sg1_detailed/chevron_light_off"
         },
         {
             "type": "single",
@@ -694,7 +694,7 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:sg1_detailed/cheveron_light_on"
+            "resource": "minecraft:sg1_detailed/chevron_light_on"
         },
         {
             "type": "single",
@@ -850,7 +850,7 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:tollan_stargate/tollan_cheveron"
+            "resource": "minecraft:tollan_stargate/tollan_chevron"
         },
         {
             "type": "single",
@@ -858,7 +858,7 @@
         },
         {
             "type": "single",
-            "resource": "minecraft:orlin_stargate/orlin_cheveron"
+            "resource": "minecraft:orlin_stargate/orlin_chevron"
         },
         {
             "type": "single",

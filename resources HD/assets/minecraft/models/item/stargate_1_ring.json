@@ -2,7 +2,7 @@
 	"__comment": "Designed by CyberGamerX with Cubik Studio - https://cubik.studio",
 	"textures": {
 		"0": "sg1_detailed/stargate_inner_ring",
-		"1": "sg1_detailed/cheveron_light_off",
+		"1": "sg1_detailed/chevron_light_off",
 		"2": "sg1_detailed/texture_star_gate_sg3",
 		"3": "sg1_detailed/texture_star_gate_sg1",
 		"4": "sg1_detailed/texture_star_gate_sg2",

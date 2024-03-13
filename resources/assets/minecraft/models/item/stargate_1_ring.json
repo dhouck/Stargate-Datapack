@@ -6,9 +6,9 @@
 		"r1": "item/stargate_outer_ring",
 		"r2": "item/stargate_inner_ring",
 		"r1_2": "item/stargate_back",
-		"cheveron_light": "blocks/e_texture",
-		"cheveron_top": "blocks/e_texture",
-		"cheveron_frame": "blocks/e_texture"
+		"chevron_light": "blocks/e_texture",
+		"chevron_top": "blocks/e_texture",
+		"chevron_frame": "blocks/e_texture"
 	},
 	"elements": [ 	 
 		{
