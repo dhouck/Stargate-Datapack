@@ -70,3 +70,6 @@ scoreboard objectives add stargate.dialing_dhd dummy "Currently Dialing DHD"
 
 # Next DHD ID
 execute unless score .global stargate.dhd_id matches -2147483648..2147483647 run scoreboard players set .global stargate.dhd_id 0
+
+# Upgrade old entities
+function updates:update

@@ -1,5 +1,3 @@
-function updates:update
-
 function animations:milky_way
 function animations:pegasus
 function stargates:milky_way_chevrons

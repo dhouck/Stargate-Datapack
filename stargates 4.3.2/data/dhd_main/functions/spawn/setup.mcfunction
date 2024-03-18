@@ -15,8 +15,11 @@ execute if block ~ ~ ~ minecraft:command_block[facing=east] run data modify enti
 execute if block ~ ~ ~ minecraft:command_block[facing=south] run data modify entity @s Rotation[0] set value 180f
 execute if block ~ ~ ~ minecraft:command_block[facing=west] run data modify entity @s Rotation[0] set value 270f
 
-# Done with the spawning command block
+# Done with the spawning command block; replace with right-click detection jukebox
 setblock ~ ~ ~ minecraft:jukebox[has_record=true]{RecordStartTick: -45600L, IsPlaying: false}
+
+# Assign ID
+execute store result score @s stargate.dhd_id run scoreboard players add .global stargate.dhd_id 1
 
 # Set appearence
 execute as @s[tag=pegasus] run loot replace entity @s container.0 loot stargates:pegasus_dhd
