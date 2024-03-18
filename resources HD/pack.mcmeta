@@ -1,7 +1,7 @@
 {
     "pack": {
         "pack_format": 15,
-        "description": "HD Resources for Stargates 5.0 fork",
+        "description": "Stargate HD Resources (place above main Stargate pack)",
         "supported_formats": {
             "min_inclusive": 12,
             "max_inclusive": 28
