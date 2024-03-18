@@ -113,7 +113,8 @@ execute as @s[scores={stargate_state=1000..1039}] at @s run scoreboard players a
 execute as @s[scores={stargate_state=1040},tag=orlin,tag=damage_gate] at @s run tag @s add damage_gate_now
 execute as @s[scores={stargate_state=1040}] at @s run tag @s add shutdown
 
-execute as @s[scores={stargate_state=2000..,iris_state=1..}] at @s as @e[scores={travel_cooldown=1..},distance=0..2.9,tag=!stargate] at @s unless block ~ ~1 ~ air run clear @s
-execute as @s[scores={stargate_state=2000..,iris_state=1..}] at @s as @e[scores={travel_cooldown=1..},distance=0..2.9,tag=!stargate] at @s unless block ~ ~1 ~ air run kill @s
-execute as @s[scores={stargate_state=2000..}] at @s as @e[scores={travel_cooldown=0},distance=0..2.9,tag=!stargate] at @s if block ~ ~1 ~ minecraft:light run clear @s
-execute as @s[scores={stargate_state=2000..}] at @s as @e[scores={travel_cooldown=0},distance=0..2.9,tag=!stargate] at @s if block ~ ~1 ~ minecraft:light run kill @s
+execute as @s[tag=X,tag=7x7,scores={stargate_state=2000..}] align xyz positioned ~-2 ~-1 ~ as @e[dx=4,dy=4,dz=0,tag=!stargate,tag=!sg_override] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:wrong_way
+execute as @s[tag=Z,tag=7x7,scores={stargate_state=2000..}] align xyz positioned ~ ~-1 ~-2 as @e[dx=0,dy=4,dz=4,tag=!stargate,tag=!sg_override] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:wrong_way
+execute as @s[tag=X,tag=5x5,scores={stargate_state=2000..}] align xyz positioned ~-1 ~-1 ~ as @e[dx=2,dy=3,dz=0,tag=!stargate,tag=!sg_override] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:wrong_way
+execute as @s[tag=Z,tag=5x5,scores={stargate_state=2000..}] align xyz positioned ~ ~-1 ~-1 as @e[dx=0,dy=3,dz=2,tag=!stargate,tag=!sg_override] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:wrong_way
+

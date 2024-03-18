@@ -29,23 +29,13 @@ execute as @s[scores={w_animation=1}] at @s run playsound minecraft:stargates.st
 
 execute as @s[scores={w_animation=1..25}] run scoreboard players add @s w_animation 1
 
-execute as @s[scores={w_animation=9..23},tag=7x7] at @s positioned ^ ^ ^1 run clear @a[tag=!stargate,distance=0..1,scores={travel_cooldown=0}]
-execute as @s[scores={w_animation=9..23},tag=7x7] at @s positioned ^ ^ ^1 run kill @e[tag=!stargate,distance=0..1,scores={travel_cooldown=0}]
+execute as @s[scores={w_animation=9..23},tag=7x7] at @s positioned ^ ^ ^1 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
+execute as @s[scores={w_animation=13..19},tag=7x7] at @s positioned ^ ^ ^2 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
+execute as @s[scores={w_animation=15..17},tag=7x7] at @s positioned ^ ^ ^3 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
 
-execute as @s[scores={w_animation=13..19},tag=7x7] at @s positioned ^ ^ ^2 run clear @a[tag=!stargate,distance=0..1,scores={travel_cooldown=0}]
-execute as @s[scores={w_animation=13..19},tag=7x7] at @s positioned ^ ^ ^2 run kill @e[tag=!stargate,distance=0..1,scores={travel_cooldown=0}]
-
-execute as @s[scores={w_animation=15..17},tag=7x7] at @s positioned ^ ^ ^3 run clear @a[tag=!stargate,distance=0..1,scores={travel_cooldown=0}]
-execute as @s[scores={w_animation=15..17},tag=7x7] at @s positioned ^ ^ ^3 run kill @e[tag=!stargate,distance=0..1,scores={travel_cooldown=0}]
-
-execute as @s[scores={w_animation=9..23},tag=5x5] at @s positioned ^ ^ ^1 run clear @a[tag=!stargate,distance=0..1,scores={travel_cooldown=0}]
-execute as @s[scores={w_animation=9..23},tag=5x5] at @s positioned ^ ^ ^1 run kill @e[tag=!stargate,distance=0..1,scores={travel_cooldown=0}]
-
-execute as @s[scores={w_animation=13..19},tag=5x5] at @s positioned ^ ^ ^1.5 run clear @a[tag=!stargate,distance=0..1]
-execute as @s[scores={w_animation=13..19},tag=5x5] at @s positioned ^ ^ ^1.5 run kill @e[tag=!stargate,distance=0..1]
-
-execute as @s[scores={w_animation=15..17},tag=5x5] at @s positioned ^ ^ ^2 run clear @a[tag=!stargate,distance=0..1]
-execute as @s[scores={w_animation=15..17},tag=5x5] at @s positioned ^ ^ ^2 run kill @e[tag=!stargate,distance=0..1]
+execute as @s[scores={w_animation=9..23},tag=5x5] at @s positioned ^ ^ ^1 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
+execute as @s[scores={w_animation=13..19},tag=5x5] at @s positioned ^ ^ ^1.5 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
+execute as @s[scores={w_animation=15..17},tag=5x5] at @s positioned ^ ^ ^2 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
 
 # Iris
 execute as @s[scores={w_animation=58..75}] at @s as @e[tag=event_horizon,tag=stargate,distance=0..0.5] at @s run tp @s ~ ~ ~ ~ ~1

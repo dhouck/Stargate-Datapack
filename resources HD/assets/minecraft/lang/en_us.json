@@ -28,5 +28,14 @@
     "stargates.address.9": "%s-%s-%s-%s-%s-%s-%s-%s-%s",
 
     // Glyphs
-    "stargates.glyph.mw.origin": "\u1430"
+    "stargates.glyph.mw.origin": "\u1430",
+
+    // Damage message
+    "death.attack.stargates.iris": "%s's molecules failed to rematerialize",
+    "death.attack.stargates.iris.player": "%s's molecules failed to rematerialize while trying to escape %s",
+    "death.attack.stargates.kawoosh": "%s was vaporized",
+    "death.attack.stargates.kawoosh.player": "%s was vaporised while trying to escape %s",
+    "death.attack.stargates.wrong_way": "%s was dematerialized",
+    "death.attack.stargates.wrong_way.player": "%s was dematerialized while trying to escape %s"
+
 }
