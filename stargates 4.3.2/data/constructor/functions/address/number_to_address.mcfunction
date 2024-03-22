@@ -28,17 +28,17 @@
 # If for no j < i, si = addrj, addri <-> si
 ## We did not choose this value before; swap with the value equal to that index
 
-tellraw @a ["New stargate address as int: ", {"score": {"name": "@s", "objective": "setup_address"}}]
+tellraw @a[tag=sg.debug] ["New stargate address as int: ", {"score": {"name": "@s", "objective": "setup_address"}}]
 scoreboard players set @s addr8 35
 
 # addr1
 scoreboard players operation @s addr1 = @s addr8
 scoreboard players operation @s s1 = @s setup_address
 scoreboard players operation @s s1 %= @s addr8
-tellraw @a [{"score": {"name": "@s", "objective": "setup_address"}}, "%", {"score": {"name": "@s", "objective": "addr8"}}, "=", {"score": {"name": "@s", "objective": "s1"}}]
+tellraw @a[tag=sg.debug] [{"score": {"name": "@s", "objective": "setup_address"}}, "%", {"score": {"name": "@s", "objective": "addr8"}}, "=", {"score": {"name": "@s", "objective": "s1"}}]
 scoreboard players add @s s1 1
 scoreboard players operation @s addr1 >< @s s1
-tellraw @a ["Glyph value:", {"score": {"name": "@s", "objective": "addr1"}}]
+tellraw @a[tag=sg.debug] ["Glyph value:", {"score": {"name": "@s", "objective": "addr1"}}]
 scoreboard players operation @s setup_address /= @s addr8
 
 # addr2
@@ -47,11 +47,11 @@ scoreboard players operation @s addr2 = @s addr8
 execute if score @s addr2 = @s addr1 run scoreboard players operation @s addr2 = @s s1
 scoreboard players operation @s s2 = @s setup_address
 scoreboard players operation @s s2 %= @s addr8
-tellraw @a [{"score": {"name": "@s", "objective": "setup_address"}}, "%", {"score": {"name": "@s", "objective": "addr8"}}, "=", {"score": {"name": "@s", "objective": "s2"}}]
+tellraw @a[tag=sg.debug] [{"score": {"name": "@s", "objective": "setup_address"}}, "%", {"score": {"name": "@s", "objective": "addr8"}}, "=", {"score": {"name": "@s", "objective": "s2"}}]
 scoreboard players add @s s2 1
 execute if score @s s2 = @s addr1 run scoreboard players operation @s addr2 >< @s s1
 execute unless score @s s2 = @s addr1 run scoreboard players operation @s addr2 >< @s s2
-tellraw @a ["Glyph value:", {"score": {"name": "@s", "objective": "addr2"}}]
+tellraw @a[tag=sg.debug] ["Glyph value:", {"score": {"name": "@s", "objective": "addr2"}}]
 scoreboard players operation @s setup_address /= @s addr8
 
 # addr3
@@ -61,12 +61,12 @@ execute if score @s addr3 = @s addr1 run scoreboard players operation @s addr3 =
 execute if score @s addr3 = @s addr2 run scoreboard players operation @s addr3 = @s s2
 scoreboard players operation @s s3 = @s setup_address
 scoreboard players operation @s s3 %= @s addr8
-tellraw @a [{"score": {"name": "@s", "objective": "setup_address"}}, "%", {"score": {"name": "@s", "objective": "addr8"}}, "=", {"score": {"name": "@s", "objective": "s3"}}]
+tellraw @a[tag=sg.debug] [{"score": {"name": "@s", "objective": "setup_address"}}, "%", {"score": {"name": "@s", "objective": "addr8"}}, "=", {"score": {"name": "@s", "objective": "s3"}}]
 scoreboard players add @s s3 1
 execute if score @s s3 = @s addr1 run scoreboard players operation @s addr3 >< @s s1
 execute if score @s s3 = @s addr2 run scoreboard players operation @s addr3 >< @s s2
 execute unless score @s s3 = @s addr1 unless score @s s3 = @s addr2 run scoreboard players operation @s addr3 >< @s s3
-tellraw @a ["Glyph value:", {"score": {"name": "@s", "objective": "addr3"}}]
+tellraw @a[tag=sg.debug] ["Glyph value:", {"score": {"name": "@s", "objective": "addr3"}}]
 scoreboard players operation @s setup_address /= @s addr8
 
 # addr4
@@ -77,13 +77,13 @@ execute if score @s addr4 = @s addr2 run scoreboard players operation @s addr4 =
 execute if score @s addr4 = @s addr3 run scoreboard players operation @s addr4 = @s s3
 scoreboard players operation @s s4 = @s setup_address
 scoreboard players operation @s s4 %= @s addr8
-tellraw @a [{"score": {"name": "@s", "objective": "setup_address"}}, "%", {"score": {"name": "@s", "objective": "addr8"}}, "=", {"score": {"name": "@s", "objective": "s4"}}]
+tellraw @a[tag=sg.debug] [{"score": {"name": "@s", "objective": "setup_address"}}, "%", {"score": {"name": "@s", "objective": "addr8"}}, "=", {"score": {"name": "@s", "objective": "s4"}}]
 scoreboard players add @s s4 1
 execute if score @s s4 = @s addr1 run scoreboard players operation @s addr4 >< @s s1
 execute if score @s s4 = @s addr2 run scoreboard players operation @s addr4 >< @s s2
 execute if score @s s4 = @s addr3 run scoreboard players operation @s addr4 >< @s s3
 execute unless score @s s4 = @s addr1 unless score @s s4 = @s addr2 unless score @s s4 = @s addr3 run scoreboard players operation @s addr4 >< @s s4
-tellraw @a ["Glyph value:", {"score": {"name": "@s", "objective": "addr4"}}]
+tellraw @a[tag=sg.debug] ["Glyph value:", {"score": {"name": "@s", "objective": "addr4"}}]
 scoreboard players operation @s setup_address /= @s addr8
 
 # addr5
@@ -95,14 +95,14 @@ execute if score @s addr5 = @s addr3 run scoreboard players operation @s addr5 =
 execute if score @s addr5 = @s addr4 run scoreboard players operation @s addr5 = @s s4
 scoreboard players operation @s s5 = @s setup_address
 scoreboard players operation @s s5 %= @s addr8
-tellraw @a [{"score": {"name": "@s", "objective": "setup_address"}}, "%", {"score": {"name": "@s", "objective": "addr8"}}, "=", {"score": {"name": "@s", "objective": "s5"}}]
+tellraw @a[tag=sg.debug] [{"score": {"name": "@s", "objective": "setup_address"}}, "%", {"score": {"name": "@s", "objective": "addr8"}}, "=", {"score": {"name": "@s", "objective": "s5"}}]
 scoreboard players add @s s5 1
 execute if score @s s5 = @s addr1 run scoreboard players operation @s addr5 >< @s s1
 execute if score @s s5 = @s addr2 run scoreboard players operation @s addr5 >< @s s2
 execute if score @s s5 = @s addr3 run scoreboard players operation @s addr5 >< @s s3
 execute if score @s s5 = @s addr4 run scoreboard players operation @s addr5 >< @s s4
 execute unless score @s s5 = @s addr1 unless score @s s5 = @s addr2 unless score @s s5 = @s addr3 unless score @s s5 = @s addr4 run scoreboard players operation @s addr5 >< @s s5
-tellraw @a ["Glyph value:", {"score": {"name": "@s", "objective": "addr5"}}]
+tellraw @a[tag=sg.debug] ["Glyph value:", {"score": {"name": "@s", "objective": "addr5"}}]
 scoreboard players operation @s setup_address /= @s addr8
 
 # addr6
@@ -115,7 +115,7 @@ execute if score @s addr6 = @s addr4 run scoreboard players operation @s addr6 =
 execute if score @s addr6 = @s addr5 run scoreboard players operation @s addr6 = @s s5
 scoreboard players operation @s s6 = @s setup_address
 scoreboard players operation @s s6 %= @s addr8
-tellraw @a [{"score": {"name": "@s", "objective": "setup_address"}}, "%", {"score": {"name": "@s", "objective": "addr8"}}, "=", {"score": {"name": "@s", "objective": "s6"}}]
+tellraw @a[tag=sg.debug] [{"score": {"name": "@s", "objective": "setup_address"}}, "%", {"score": {"name": "@s", "objective": "addr8"}}, "=", {"score": {"name": "@s", "objective": "s6"}}]
 scoreboard players add @s s6 1
 execute if score @s s6 = @s addr1 run scoreboard players operation @s addr6 >< @s s1
 execute if score @s s6 = @s addr2 run scoreboard players operation @s addr6 >< @s s2
@@ -123,7 +123,7 @@ execute if score @s s6 = @s addr3 run scoreboard players operation @s addr6 >< @
 execute if score @s s6 = @s addr4 run scoreboard players operation @s addr6 >< @s s4
 execute if score @s s6 = @s addr5 run scoreboard players operation @s addr6 >< @s s5
 execute unless score @s s6 = @s addr1 unless score @s s6 = @s addr2 unless score @s s6 = @s addr3 unless score @s s6 = @s addr4 unless score @s s6 = @s addr5 run scoreboard players operation @s addr6 >< @s s6
-tellraw @a ["Glyph value:", {"score": {"name": "@s", "objective": "addr6"}}]
+tellraw @a[tag=sg.debug] ["Glyph value:", {"score": {"name": "@s", "objective": "addr6"}}]
 
 scoreboard players reset @s setup_address
 scoreboard players reset @s addr8
