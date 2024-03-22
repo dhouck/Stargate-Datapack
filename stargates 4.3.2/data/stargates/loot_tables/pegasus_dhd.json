@@ -5,11 +5,11 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:lectern",
+					"name": "minecraft:beehive",
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData: 1, display: {Name: '{\"text\":\"Pegasus DHD\", \"italic\": false}', Lore:['{\"text\":\"Place near a stargate to control the gate\"}']}, BlockEntityTag: {Book: {id: \"minecraft:redstone\", Count: 1b, tag: {x_custom_block: {type: \"stargates:pegasus_dhd\"}}}}}"
+							"tag": "{CustomModelData: 456001, display: {Name: '{\"text\":\"Pegasus DHD\", \"italic\": false}', Lore:['{\"text\":\"Place near a stargate to control the gate\"}']}, BlockEntityTag: {Bees:[{EntityData:{id:\"minecraft:marker\",Tags:[\"custom_block\",\"sg.pegasus_dhd\"]}}]}}"
 						}
 					]
 				}

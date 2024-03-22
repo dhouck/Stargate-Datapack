@@ -1,7 +1,7 @@
 # Executor: newly summoned item display; position: that item display
 
 # Common data
-data merge entity @s {Tags:["dhd"],brightness:{sky:15,block:15}}
+data merge entity @s {Tags:["dhd"],brightness:{sky:15,block:15},transformation:{translation:[0f,-0.03125f,0f]}}
 scoreboard players set @s dhd_menu 0
 
 # DHD type

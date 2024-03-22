@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/beehive",
+
+	"overrides": [
+		{"predicate": {"custom_model_data":456001}, "model": "item/pegasus_dhd"},
+		{"predicate": {"custom_model_data":456002}, "model": "item/milky_way_dhd"}
+	]
+}

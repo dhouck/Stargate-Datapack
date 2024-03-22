@@ -9,9 +9,9 @@
             "predicate": {
               "block": {
                 "blocks": [
-                  "minecraft:lectern"
+                  "minecraft:beehive"
                 ],
-                "nbt": "{Book:{id:\"minecraft:redstone\",Count:1b,tag:{x_custom_block:{}}}}"
+                "nbt": "{Bees:[{EntityData:{id:\"minecraft:marker\",Tags:[\"custom_block\"]}}]}"
               }
             }
           }
