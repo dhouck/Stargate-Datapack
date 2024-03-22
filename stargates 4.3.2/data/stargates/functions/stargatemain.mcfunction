@@ -5,7 +5,6 @@ function stargates:pegasus_chevrons
 function animations:universe
 #function universe_dhd:dhd_main
 function constructor:stargates/main
-function constructor:address/main
 function deconstructor:stargates/main
 function connection:main
 function inbound_animation:pegasus

@@ -1,10 +1,15 @@
-execute as @e[tag=stargate,tag=new,tag=ctrl] at @s run scoreboard players set @s setup_address 1
-execute as @e[tag=stargate,tag=pegasus,tag=animation,tag=new] at @s run scoreboard players set @s p_lightup_pos 0
-execute as @e[tag=stargate,tag=milky_way,tag=ctrl,tag=new] at @s run scoreboard players set @s m_lightup_i 0
-execute as @e[tag=stargate,tag=ctrl,tag=new] at @s run scoreboard players set @s iris_state 0
+# Executor: new stargate; location: that gate
+execute as @s[tag=pegasus] as @e[tag=stargate,tag=animation,tag=pegasus,tag=new,limit=1,sort=nearest] run scoreboard players set @s p_lightup_pos 0
+execute as @s[tag=milky_way] run scoreboard players set @s m_lightup_i 0
+execute as @s run scoreboard players set @s iris_state 0
 
-tag @e[tag=stargate,tag=ctrl,tag=new] remove new
-tag @e[tag=stargate,tag=animation,tag=pegasus,tag=new] remove new
+function constructor:address/main_setup_address
 
-execute as @e[tag=stargate,tag=ctrl,scores={setup_address=1..}] at @s run function constructor:address/main_setup_address
-
+scoreboard players set @s s1 1
+scoreboard players set @s s2 1
+scoreboard players set @s s3 1
+scoreboard players set @s s4 1
+scoreboard players set @s s5 1
+scoreboard players set @s s6 1
+scoreboard players set @s s8 0
+scoreboard players set @s s9 0

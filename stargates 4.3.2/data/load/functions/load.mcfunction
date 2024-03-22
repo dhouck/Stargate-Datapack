@@ -46,7 +46,6 @@ scoreboard objectives add u_exit_remote minecraft.custom:minecraft.sneak_time
 scoreboard objectives add entity_pos_x dummy
 scoreboard objectives add entity_pos_z dummy
 scoreboard objectives add setup_address dummy
-scoreboard objectives add 16 dummy
 scoreboard objectives add stargate_state dummy
 scoreboard objectives add dial1 dummy
 scoreboard objectives add dial2 dummy
@@ -67,6 +66,15 @@ scoreboard objectives add travel_cooldown dummy
 scoreboard objectives add version dummy
 scoreboard objectives add stargate.dhd_id dummy "DHD ID"
 scoreboard objectives add stargate.dialing_dhd dummy "Currently Dialing DHD"
+
+# Global constants
+scoreboard objectives add 2 dummy
+scoreboard players set .global 2 2
+scoreboard objectives add 16 dummy
+scoreboard players set .global 16 16
+# 35*34*33*32*31*30
+scoreboard objectives add sg.num_addresses dummy
+scoreboard players set .global sg.num_addresses 1168675200
 
 # Next DHD ID
 execute unless score .global stargate.dhd_id matches -2147483648..2147483647 run scoreboard players set .global stargate.dhd_id 0
