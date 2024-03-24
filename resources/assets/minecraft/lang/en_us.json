@@ -33,9 +33,9 @@
     // Damage message
     "death.attack.stargates.iris": "%s's molecules failed to rematerialize",
     "death.attack.stargates.iris.player": "%s's molecules failed to rematerialize while trying to escape %s",
-    "death.attack.stargates.kawoosh": "%s was vaporized",
-    "death.attack.stargates.kawoosh.player": "%s was vaporised while trying to escape %s",
-    "death.attack.stargates.wrong_way": "%s was dematerialized",
-    "death.attack.stargates.wrong_way.player": "%s was dematerialized while trying to escape %s"
+    "death.attack.stargates.kawoosh": "%s was kawooshed",
+    "death.attack.stargates.kawoosh.player": "%s was kawooshed while trying to escape %s",
+    "death.attack.stargates.wrong_way": "%s tried to go the wrong way through an open wormhole",
+    "death.attack.stargates.wrong_way.player": "%s tried to go the wrong way through an open wormhole while trying to escape %s"
 
 }
