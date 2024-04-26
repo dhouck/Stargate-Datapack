@@ -5,24 +5,26 @@
 		],
 		"subtitle": "subtitles.stargate.traveler.inbound"
 	},
-        "stargates.milky_way_chevron_lock": {
+	
+	"stargates.milky_way_chevron_lock": {
 		"sounds": [
 			"stargates/milky_way_chevron_lock"
 		],
 		"subtitle": "subtitles.stargate.chevron.lock"
-	},"stargates.milky_way_ring_spin": {
+	},
+	"stargates.milky_way_ring_spin": {
 		"sounds": [
 			"stargates/milky_way_ring_spin"
 		],
 		"subtitle": "subtitles.stargate.gate.dial"
 	},
-        "stargates.milky_way_deactivation": {
+	"stargates.milky_way_deactivation": {
 		"sounds": [
 			"stargates/milky_way_deactivation"
 		],
 		"subtitle": "subtitles.stargate.gate.shutdown"
 	},
-        "stargates.milky_way_inbound_chevron": {
+	"stargates.milky_way_inbound_chevron": {
 		"sounds": [
 			"stargates/milky_way_inbound_chevron"
 		],
@@ -43,61 +45,71 @@
 		],
 		"subtitle": "subtitles.stargate.iris.open"
 	},
-        "stargates.pegasus_dial": {
+
+	"stargates.pegasus_dial": {
 		"sounds": [
 			"stargates/pegasus_dial"
 		],
 		"subtitle": "subtitles.stargate.gate.dial"
 	},
-        "stargates.pegasus_lock": {
+	"stargates.pegasus_lock": {
 		"sounds": [
 			"stargates/pegasus_lock"
 		],
 		"subtitle": "subtitles.stargate.chevron.lock"
 	},
-        "stargates.pegasus_shield_activation": {
+	"stargates.pegasus_inbound_chevron": {
+		"sounds": [
+			"stargates/pegasus_lock"
+		],
+		"subtitle": "subtitles.stargate.chevron.lock"
+	},
+	"stargates.pegasus_shield_activation": {
 		"sounds": [
 			"stargates/pegasus_shield_activation"
 		],
 		"subtitle": "subtitles.stargate.shield.activate"
 	},
-        "stargates.pegasus_shield_deactivation": {
+	"stargates.pegasus_shield_deactivation": {
 		"sounds": [
 			"stargates/pegasus_shield_deactivation"
 		],
 		"subtitle": "subtitles.stargate.shield.deactivate"
 	},
-        "stargates.stargate_event_horizon": {
+
+	"stargates.stargate_event_horizon": {
 		"sounds": [
 			"stargates/stargate_event_horizon"
 		],
 		"subtitle": "subtitles.stargate.gate.kawoosh"
 	},
-        "stargates.universe_gate_on": {
+
+	"stargates.universe_gate_on": {
 		"sounds": [
 			"stargates/universe_gate_on"
 		],
 		"subtitle": "subtitles.stargate.gate.startup"
 	},
-        "stargates.universe_spin": {
+	"stargates.universe_spin": {
 		"sounds": [
 			"stargates/universe_spin"
 		],
 		"subtitle": "subtitles.stargate.gate.dial"
 	},
-        "stargates.universe_lock": {
+	"stargates.universe_lock": {
 		"sounds": [
 			"stargates/universe_lock"
 		],
 		"subtitle": "subtitles.stargate.chevron.lock"
 	},
-        "stargates.universe_gate_off": {
+	"stargates.universe_gate_off": {
 		"sounds": [
 			"stargates/universe_gate_off"
 		],
 		"subtitle": "subtitles.stargate.gate.shutdown"
 	},
-        "rings.rings": {
+
+	"rings.rings": {
 		"sounds": [
 			"rings/rings"
 		],
