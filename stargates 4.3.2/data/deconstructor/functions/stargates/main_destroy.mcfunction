@@ -1,3 +1,5 @@
+tag @s add stargate.destroy_current
+
 #Milky Way X Positive
 execute as @s[tag=milky_way,tag=X_P] at @s run setblock ~-3 ~-2 ~ minecraft:structure_block{mode: "LOAD",powered: 0b,name: "stargates:milky_way",rotation: "NONE"}
 
@@ -68,5 +70,8 @@ execute as @s[tag=5x5] at @s run setblock ^-1 ^-1 ^ redstone_block
 
 # Cleanup
 execute as @s at @s run forceload remove ~ ~
+execute as @e[tag=stargate,tag=ctrl] if score @s connection_id = @e[tag=stargate.destroy_current,limit=1] connection_id run tag @s add shutdown
 execute as @s at @s run kill @e[tag=stargate,distance=0..0.5]
 
+
+# No need to remove stargate.destroy_current tag
