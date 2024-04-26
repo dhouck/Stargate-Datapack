@@ -76,7 +76,8 @@ scoreboard players set .global 16 16
 scoreboard objectives add sg.num_addresses dummy
 scoreboard players set .global sg.num_addresses 1168675200
 
-# Next DHD ID
+# Initial values
+execute unless score .global connection_id matches -2147483648..2147483647 run scoreboard players set .global connection_id 0
 execute unless score .global stargate.dhd_id matches -2147483648..2147483647 run scoreboard players set .global stargate.dhd_id 0
 
 # Upgrade old entities

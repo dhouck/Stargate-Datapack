@@ -1,3 +1,5 @@
+tag @s add stargate.current_animation
+
 # Initial animation setup
 execute as @s[scores={w_animation=1}] run tag @s add e_off
 
@@ -29,13 +31,13 @@ execute as @s[scores={w_animation=1}] at @s run playsound minecraft:stargates.st
 
 execute as @s[scores={w_animation=1..25}] run scoreboard players add @s w_animation 1
 
-execute as @s[scores={w_animation=9..23},tag=7x7] at @s positioned ^ ^ ^1 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
-execute as @s[scores={w_animation=13..19},tag=7x7] at @s positioned ^ ^ ^2 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
-execute as @s[scores={w_animation=15..17},tag=7x7] at @s positioned ^ ^ ^3 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
+execute as @s[scores={w_animation=9..23},tag=7x7] at @s positioned ^ ^ ^1 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown = @e[tag=stargate.current_animation,limit=1] connection_id run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
+execute as @s[scores={w_animation=13..19},tag=7x7] at @s positioned ^ ^ ^2 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown = @e[tag=stargate.current_animation,limit=1] connection_id run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
+execute as @s[scores={w_animation=15..17},tag=7x7] at @s positioned ^ ^ ^3 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown = @e[tag=stargate.current_animation,limit=1] connection_id run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
 
-execute as @s[scores={w_animation=9..23},tag=5x5] at @s positioned ^ ^ ^1 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
-execute as @s[scores={w_animation=13..19},tag=5x5] at @s positioned ^ ^ ^1.5 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
-execute as @s[scores={w_animation=15..17},tag=5x5] at @s positioned ^ ^ ^2 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown matches 1.. run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
+execute as @s[scores={w_animation=9..23},tag=5x5] at @s positioned ^ ^ ^1 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown = @e[tag=stargate.current_animation,limit=1] connection_id run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
+execute as @s[scores={w_animation=13..19},tag=5x5] at @s positioned ^ ^ ^1.5 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown = @e[tag=stargate.current_animation,limit=1] connection_id run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
+execute as @s[scores={w_animation=15..17},tag=5x5] at @s positioned ^ ^ ^2 as @e[tag=!stargate,tag=!sg_override,distance=0..1] unless score @s travel_cooldown = @e[tag=stargate.current_animation,limit=1] connection_id run damage @s 340282346638528859811704183484516925440 stargates:kawoosh
 
 # Iris
 execute as @s[scores={w_animation=58..75}] at @s as @e[tag=event_horizon,tag=stargate,distance=0..0.5] at @s run tp @s ~ ~ ~ ~ ~1
@@ -58,3 +60,5 @@ execute as @s[scores={w_animation=34}] at @s run kill @e[tag=event_horizon,tag=s
 execute as @s[tag=7x7,scores={w_animation=34}] at @s run fill ^-2 ^3 ^ ^2 ^-1 ^ minecraft:light[level=0] replace minecraft:light
 execute as @s[tag=5x5,scores={w_animation=34}] at @s run fill ^-1 ^2 ^ ^1 ^-1 ^ minecraft:light[level=0] replace minecraft:light
 execute as @s[scores={w_animation=34..49}] at @s run scoreboard players set @s w_animation 0
+
+tag @s remove stargate.current_animation
