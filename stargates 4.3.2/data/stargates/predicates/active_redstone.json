@@ -1,0 +1,45 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate":
+            {
+                "block": {
+                    "blocks": ["minecraft:redstone_torch", "minecraft:redstone_wall_torch"],
+                    "state": {
+                        "lit": "true"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate":
+            {
+                "block": {
+                    "blocks": ["minecraft:redstone_wire"],
+                    "state": {
+                        "power": {
+                            "min": 1,
+                            "max": 15
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate":
+            {
+                "block": {
+                    "blocks": ["minecraft:observer"],
+                    "state": {
+                        "facing": "down",
+                        "powered": "true"
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 # Auto dialing
-execute as @s[scores={dhd_menu=0}] if block ~ ~-1 ~ minecraft:redstone_torch[lit=true] run scoreboard players set @s dhd_menu 9
-execute as @s[scores={dhd_menu=0}] if block ~ ~-1 ~ minecraft:redstone_wall_torch[lit=true] run scoreboard players set @s dhd_menu 9
+execute as @s[scores={dhd_menu=0},tag=!stargate.autodialed] positioned ~ ~-1 ~ if predicate stargates:active_redstone at @s run function dhd_main:autodial
+execute as @s[scores={dhd_menu=0},tag=stargate.autodialed] positioned ~ ~-1 ~ unless predicate stargates:active_redstone run tag @s remove stargate.autodialed
 
 # Dial the stargate
 execute as @s[scores={dhd_menu=9}] run scoreboard players operation @e[tag=stargate,tag=ctrl,scores={stargate_state=0},distance=0..10,limit=1,sort=nearest] s1 = @s p1

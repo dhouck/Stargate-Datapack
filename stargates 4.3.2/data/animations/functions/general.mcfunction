@@ -24,5 +24,5 @@ execute as @e[tag=stargate,tag=ctrl,tag=pegasus,scores={iris_state=0..5}] at @s 
 execute as @e[tag=stargate,tag=ctrl,tag=pegasus,scores={iris_state=1..6}] at @s unless block ^ ^-3 ^ minecraft:redstone_torch[lit=true] unless block ^ ^-3 ^ minecraft:redstone_wall_torch[lit=true] run function animations:pegasus_lower_shield
 
 # Tollan gate
-execute as @e[tag=stargate,tag=ctrl,tag=tollan,scores={stargate_state=0}] at @s if block ^ ^-3 ^ minecraft:redstone_torch[lit=true] run scoreboard players set @s stargate_state 1
-execute as @e[tag=stargate,tag=ctrl,tag=tollan,scores={stargate_state=0}] at @s if block ^ ^-3 ^ minecraft:redstone_wall_torch[lit=true] run scoreboard players add @s stargate_state 1
+execute as @e[tag=stargate,tag=ctrl,tag=tollan,scores={stargate_state=0},tag=!stargate.autodialed] at @s positioned ~ ~-3 ~ if predicate stargates:active_redstone at @s run function animations:tollan_autodial
+execute as @e[tag=stargate,tag=ctrl,tag=tollan,scores={stargate_state=0},tag=stargate.autodialed] at @s positioned ~ ~-3 ~ unless predicate stargates:active_redstone run tag @s remove stargate.autodialed
